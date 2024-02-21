@@ -5,6 +5,12 @@ function getExampleText(req, res) {
     res.send(ExampleUtils.getExample());
 }
 
+// c'est moi 
+function getMyName(req, res) {
+    res.send('Axel');
+}
+
 module.exports = {
-    getExampleText
+    getExampleText,
+    getMyName
 };
