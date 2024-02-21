@@ -7,4 +7,6 @@ function getExampleText(req, res) {
 
 module.exports = {
     getExampleText
+    
 };
+

@@ -5,6 +5,7 @@ const ExampleMiddleware = require('../middlewares/ExampleMiddlewares');
 const router = Router();
 
 // Each routes links to a controller function, and can use some middlewares
-router.get('/', ExampleMiddleware, ExampleController.getExampleText);
+router.get('/sophie', ExampleMiddleware, ExampleController.getExampleText);
+
 
 module.exports = router;
