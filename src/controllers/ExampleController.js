@@ -5,8 +5,19 @@ function getExampleText(req, res) {
     res.send(ExampleUtils.getExample());
 }
 
-module.exports = {
-    getExampleText
-    
-};
 
+
+function getNomPrenom (req, res) {
+    const nom = 'Morin';
+    const prenom = 'Marvin';
+    const nomComplet = `${prenom} ${nom}`;
+    res.send(`Nom et prénom : ${nomComplet}`);
+  };
+
+  
+
+
+module.exports = {
+    getExampleText,
+    getNomPrenom
+};

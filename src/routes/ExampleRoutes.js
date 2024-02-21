@@ -8,4 +8,10 @@ const router = Router();
 router.get('/sophie', ExampleMiddleware, ExampleController.getExampleText);
 
 
+
+router.get('/nom-prenom', ExampleController.getNomPrenom);
+
+module.exports = router;
+
+
 module.exports = router;
