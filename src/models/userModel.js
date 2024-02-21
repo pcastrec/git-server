@@ -9,7 +9,7 @@ const User = database.define('User', {
     },
     username: {
         type: DataTypes.STRING,
-        defaultValue: 'Example'
+        defaultValue: 'john'
     }
 });
 
